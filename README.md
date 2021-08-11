@@ -1,1 +1,1 @@
-# yoga-landing-page
+# yoga-home-page
