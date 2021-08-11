@@ -1,0 +1,28 @@
+#steps {
+  margin-bottom: 110px;
+  
+  .container {
+    @include width;
+    @include center-align;
+    justify-content: space-around;
+    margin-top: 80px;
+
+    .block {
+      @include center-align;
+      flex-direction: column;
+      height: 288px;
+
+      .icon1 {
+        padding-top: 56px;
+      }
+
+      .icon2 {
+        padding-top: 31px;
+      }
+
+      .desc {
+        font-weight: 300;
+      }
+    }
+  }
+}

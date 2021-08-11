@@ -1,0 +1,36 @@
+header {
+  nav {
+    @include width;
+    @include center-align;
+    margin-top: 26px;
+    margin-bottom: 30px;
+
+    .logo {
+      width: 93px;
+      height: 84px;
+    }
+
+    ul {
+      display: flex;
+
+      li {
+        padding: 0 31px;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  .container {
+    @include center-align;
+    justify-content: space-between;
+    position: relative;
+
+    .content {
+      margin-right: 90px;
+      max-width: 563px;
+    }
+  }
+}

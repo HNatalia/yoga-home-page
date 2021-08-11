@@ -1,0 +1,10 @@
+#program {
+  height: 805px;
+  background-image: url('../../dist/assets/bg1.png');
+  @include center-align;
+
+  .content {
+    margin-left: 90px;
+    max-width: 630px;
+  }
+}

@@ -1,0 +1,52 @@
+#video {
+  background-color: #e5ccc6;
+
+  .video {
+    position: relative;
+    @include center-align;
+    justify-content: center;
+
+    .video-image {
+      box-shadow: 15px 15px 43px 5px rgba(12, 13, 12, .6);
+    }
+
+    .play-btn {
+      position: absolute;
+      cursor: pointer;
+    }
+  }
+
+  .container {
+    @include width;
+    @include center-align;
+    padding: 155px 0 160px;
+    justify-content: space-between;
+
+    .content {
+      margin-left: 65px;
+      margin-top: 8px;
+
+      h2 {
+        font-size: 58px;
+        margin-bottom: 36px;
+      }
+
+      .social {
+        display: flex;
+        margin-top: 53px;
+
+        li {
+          margin-right: 45px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          img {
+            width: 35px;
+          }
+        }
+      }
+    }
+  }
+}

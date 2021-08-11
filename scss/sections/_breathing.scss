@@ -1,0 +1,32 @@
+#breathing {
+  position: relative;
+  height: 630px;
+  display: flex;
+
+  .container {
+    @include width;
+    @include center-align;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 110px;
+
+    .bg-design {
+      position: absolute;
+      bottom: -65px;
+      right: -57px;
+    }
+
+    .content {
+      margin-right: 90px;
+
+      h2 {
+        font-size: 58px;
+        margin-bottom: 36px;
+      }
+
+      .btn {
+        margin-top: 42px;
+      }
+    }
+  }
+}
